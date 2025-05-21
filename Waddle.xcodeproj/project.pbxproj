@@ -1,0 +1,982 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		513074122DCF98FD00C5D4EA /* Waddle WatchKit App Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 513073EF2DCF98FC00C5D4EA /* Waddle WatchKit App Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		513073CF2DCF98D500C5D4EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 513073B62DCF98D500C5D4EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 513073BD2DCF98D500C5D4EA;
+			remoteInfo = Waddle;
+		};
+		513073D92DCF98D500C5D4EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 513073B62DCF98D500C5D4EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 513073BD2DCF98D500C5D4EA;
+			remoteInfo = Waddle;
+		};
+		513073FF2DCF98FD00C5D4EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 513073B62DCF98D500C5D4EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 513073EE2DCF98FC00C5D4EA;
+			remoteInfo = "Waddle WatchKit App Watch App";
+		};
+		513074092DCF98FD00C5D4EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 513073B62DCF98D500C5D4EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 513073EE2DCF98FC00C5D4EA;
+			remoteInfo = "Waddle WatchKit App Watch App";
+		};
+		513074102DCF98FD00C5D4EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 513073B62DCF98D500C5D4EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 513073EE2DCF98FC00C5D4EA;
+			remoteInfo = "Waddle WatchKit App Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		513074162DCF98FD00C5D4EA /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				513074122DCF98FD00C5D4EA /* Waddle WatchKit App Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		513073BE2DCF98D500C5D4EA /* Waddle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Waddle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		513073CE2DCF98D500C5D4EA /* WaddleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaddleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		513073D82DCF98D500C5D4EA /* WaddleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaddleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		513073EF2DCF98FC00C5D4EA /* Waddle WatchKit App Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Waddle WatchKit App Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		513073FE2DCF98FD00C5D4EA /* Waddle WatchKit App Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Waddle WatchKit App Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		513074082DCF98FD00C5D4EA /* Waddle WatchKit App Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Waddle WatchKit App Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		51DE598F2DD0CD5B00409FE3 /* Exceptions for "Shared" folder in "Waddle WatchKit App Watch App" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				AppRoute.swift,
+				Color.swift,
+				MotionManager.swift,
+				Notification.swift,
+				UserData.swift,
+				WCSessionManager.swift,
+			);
+			target = 513073EE2DCF98FC00C5D4EA /* Waddle WatchKit App Watch App */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		513073C02DCF98D500C5D4EA /* Waddle */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Waddle;
+			sourceTree = "<group>";
+		};
+		513073D12DCF98D500C5D4EA /* WaddleTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = WaddleTests;
+			sourceTree = "<group>";
+		};
+		513073DB2DCF98D500C5D4EA /* WaddleUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = WaddleUITests;
+			sourceTree = "<group>";
+		};
+		513073F02DCF98FC00C5D4EA /* Waddle WatchKit App Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Waddle WatchKit App Watch App";
+			sourceTree = "<group>";
+		};
+		513074012DCF98FD00C5D4EA /* Waddle WatchKit App Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Waddle WatchKit App Watch AppTests";
+			sourceTree = "<group>";
+		};
+		5130740B2DCF98FD00C5D4EA /* Waddle WatchKit App Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Waddle WatchKit App Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		51DE59892DD0CCF600409FE3 /* Shared */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				51DE598F2DD0CD5B00409FE3 /* Exceptions for "Shared" folder in "Waddle WatchKit App Watch App" target */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		513073BB2DCF98D500C5D4EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		513073CB2DCF98D500C5D4EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		513073D52DCF98D500C5D4EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		513073EC2DCF98FC00C5D4EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		513073FB2DCF98FD00C5D4EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		513074052DCF98FD00C5D4EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		513073B52DCF98D500C5D4EA = {
+			isa = PBXGroup;
+			children = (
+				51DE59892DD0CCF600409FE3 /* Shared */,
+				513073C02DCF98D500C5D4EA /* Waddle */,
+				513073D12DCF98D500C5D4EA /* WaddleTests */,
+				513073DB2DCF98D500C5D4EA /* WaddleUITests */,
+				513073F02DCF98FC00C5D4EA /* Waddle WatchKit App Watch App */,
+				513074012DCF98FD00C5D4EA /* Waddle WatchKit App Watch AppTests */,
+				5130740B2DCF98FD00C5D4EA /* Waddle WatchKit App Watch AppUITests */,
+				513073BF2DCF98D500C5D4EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		513073BF2DCF98D500C5D4EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				513073BE2DCF98D500C5D4EA /* Waddle.app */,
+				513073CE2DCF98D500C5D4EA /* WaddleTests.xctest */,
+				513073D82DCF98D500C5D4EA /* WaddleUITests.xctest */,
+				513073EF2DCF98FC00C5D4EA /* Waddle WatchKit App Watch App.app */,
+				513073FE2DCF98FD00C5D4EA /* Waddle WatchKit App Watch AppTests.xctest */,
+				513074082DCF98FD00C5D4EA /* Waddle WatchKit App Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		513073BD2DCF98D500C5D4EA /* Waddle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 513073E22DCF98D500C5D4EA /* Build configuration list for PBXNativeTarget "Waddle" */;
+			buildPhases = (
+				513073BA2DCF98D500C5D4EA /* Sources */,
+				513073BB2DCF98D500C5D4EA /* Frameworks */,
+				513073BC2DCF98D500C5D4EA /* Resources */,
+				513074162DCF98FD00C5D4EA /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				513074112DCF98FD00C5D4EA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				513073C02DCF98D500C5D4EA /* Waddle */,
+				51DE59892DD0CCF600409FE3 /* Shared */,
+			);
+			name = Waddle;
+			packageProductDependencies = (
+			);
+			productName = Waddle;
+			productReference = 513073BE2DCF98D500C5D4EA /* Waddle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		513073CD2DCF98D500C5D4EA /* WaddleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 513073E52DCF98D500C5D4EA /* Build configuration list for PBXNativeTarget "WaddleTests" */;
+			buildPhases = (
+				513073CA2DCF98D500C5D4EA /* Sources */,
+				513073CB2DCF98D500C5D4EA /* Frameworks */,
+				513073CC2DCF98D500C5D4EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				513073D02DCF98D500C5D4EA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				513073D12DCF98D500C5D4EA /* WaddleTests */,
+			);
+			name = WaddleTests;
+			packageProductDependencies = (
+			);
+			productName = WaddleTests;
+			productReference = 513073CE2DCF98D500C5D4EA /* WaddleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		513073D72DCF98D500C5D4EA /* WaddleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 513073E82DCF98D500C5D4EA /* Build configuration list for PBXNativeTarget "WaddleUITests" */;
+			buildPhases = (
+				513073D42DCF98D500C5D4EA /* Sources */,
+				513073D52DCF98D500C5D4EA /* Frameworks */,
+				513073D62DCF98D500C5D4EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				513073DA2DCF98D500C5D4EA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				513073DB2DCF98D500C5D4EA /* WaddleUITests */,
+			);
+			name = WaddleUITests;
+			packageProductDependencies = (
+			);
+			productName = WaddleUITests;
+			productReference = 513073D82DCF98D500C5D4EA /* WaddleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		513073EE2DCF98FC00C5D4EA /* Waddle WatchKit App Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 513074132DCF98FD00C5D4EA /* Build configuration list for PBXNativeTarget "Waddle WatchKit App Watch App" */;
+			buildPhases = (
+				513073EB2DCF98FC00C5D4EA /* Sources */,
+				513073EC2DCF98FC00C5D4EA /* Frameworks */,
+				513073ED2DCF98FC00C5D4EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				513073F02DCF98FC00C5D4EA /* Waddle WatchKit App Watch App */,
+			);
+			name = "Waddle WatchKit App Watch App";
+			packageProductDependencies = (
+			);
+			productName = "Waddle WatchKit App Watch App";
+			productReference = 513073EF2DCF98FC00C5D4EA /* Waddle WatchKit App Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		513073FD2DCF98FD00C5D4EA /* Waddle WatchKit App Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 513074172DCF98FD00C5D4EA /* Build configuration list for PBXNativeTarget "Waddle WatchKit App Watch AppTests" */;
+			buildPhases = (
+				513073FA2DCF98FD00C5D4EA /* Sources */,
+				513073FB2DCF98FD00C5D4EA /* Frameworks */,
+				513073FC2DCF98FD00C5D4EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				513074002DCF98FD00C5D4EA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				513074012DCF98FD00C5D4EA /* Waddle WatchKit App Watch AppTests */,
+			);
+			name = "Waddle WatchKit App Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "Waddle WatchKit App Watch AppTests";
+			productReference = 513073FE2DCF98FD00C5D4EA /* Waddle WatchKit App Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		513074072DCF98FD00C5D4EA /* Waddle WatchKit App Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5130741A2DCF98FD00C5D4EA /* Build configuration list for PBXNativeTarget "Waddle WatchKit App Watch AppUITests" */;
+			buildPhases = (
+				513074042DCF98FD00C5D4EA /* Sources */,
+				513074052DCF98FD00C5D4EA /* Frameworks */,
+				513074062DCF98FD00C5D4EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5130740A2DCF98FD00C5D4EA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5130740B2DCF98FD00C5D4EA /* Waddle WatchKit App Watch AppUITests */,
+			);
+			name = "Waddle WatchKit App Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "Waddle WatchKit App Watch AppUITests";
+			productReference = 513074082DCF98FD00C5D4EA /* Waddle WatchKit App Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		513073B62DCF98D500C5D4EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					513073BD2DCF98D500C5D4EA = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					513073CD2DCF98D500C5D4EA = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 513073BD2DCF98D500C5D4EA;
+					};
+					513073D72DCF98D500C5D4EA = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 513073BD2DCF98D500C5D4EA;
+					};
+					513073EE2DCF98FC00C5D4EA = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					513073FD2DCF98FD00C5D4EA = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 513073EE2DCF98FC00C5D4EA;
+					};
+					513074072DCF98FD00C5D4EA = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 513073EE2DCF98FC00C5D4EA;
+					};
+				};
+			};
+			buildConfigurationList = 513073B92DCF98D500C5D4EA /* Build configuration list for PBXProject "Waddle" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 513073B52DCF98D500C5D4EA;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 513073BF2DCF98D500C5D4EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				513073BD2DCF98D500C5D4EA /* Waddle */,
+				513073CD2DCF98D500C5D4EA /* WaddleTests */,
+				513073D72DCF98D500C5D4EA /* WaddleUITests */,
+				513073EE2DCF98FC00C5D4EA /* Waddle WatchKit App Watch App */,
+				513073FD2DCF98FD00C5D4EA /* Waddle WatchKit App Watch AppTests */,
+				513074072DCF98FD00C5D4EA /* Waddle WatchKit App Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		513073BC2DCF98D500C5D4EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		513073CC2DCF98D500C5D4EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		513073D62DCF98D500C5D4EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		513073ED2DCF98FC00C5D4EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		513073FC2DCF98FD00C5D4EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		513074062DCF98FD00C5D4EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		513073BA2DCF98D500C5D4EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		513073CA2DCF98D500C5D4EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		513073D42DCF98D500C5D4EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		513073EB2DCF98FC00C5D4EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		513073FA2DCF98FD00C5D4EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		513074042DCF98FD00C5D4EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		513073D02DCF98D500C5D4EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 513073BD2DCF98D500C5D4EA /* Waddle */;
+			targetProxy = 513073CF2DCF98D500C5D4EA /* PBXContainerItemProxy */;
+		};
+		513073DA2DCF98D500C5D4EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 513073BD2DCF98D500C5D4EA /* Waddle */;
+			targetProxy = 513073D92DCF98D500C5D4EA /* PBXContainerItemProxy */;
+		};
+		513074002DCF98FD00C5D4EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 513073EE2DCF98FC00C5D4EA /* Waddle WatchKit App Watch App */;
+			targetProxy = 513073FF2DCF98FD00C5D4EA /* PBXContainerItemProxy */;
+		};
+		5130740A2DCF98FD00C5D4EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 513073EE2DCF98FC00C5D4EA /* Waddle WatchKit App Watch App */;
+			targetProxy = 513074092DCF98FD00C5D4EA /* PBXContainerItemProxy */;
+		};
+		513074112DCF98FD00C5D4EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 513073EE2DCF98FC00C5D4EA /* Waddle WatchKit App Watch App */;
+			targetProxy = 513074102DCF98FD00C5D4EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		513073E02DCF98D500C5D4EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		513073E12DCF98D500C5D4EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		513073E32DCF98D500C5D4EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Waddle/Waddle.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Waddle/Preview Content\"";
+				DEVELOPMENT_TEAM = LP5M2W5MRT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vira-fitriyani.Waddle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		513073E42DCF98D500C5D4EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Waddle/Waddle.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Waddle/Preview Content\"";
+				DEVELOPMENT_TEAM = LP5M2W5MRT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vira-fitriyani.Waddle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		513073E62DCF98D500C5D4EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LP5M2W5MRT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vira-fitriyani.WaddleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Waddle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Waddle";
+			};
+			name = Debug;
+		};
+		513073E72DCF98D500C5D4EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LP5M2W5MRT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vira-fitriyani.WaddleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Waddle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Waddle";
+			};
+			name = Release;
+		};
+		513073E92DCF98D500C5D4EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LP5M2W5MRT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vira-fitriyani.WaddleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Waddle;
+			};
+			name = Debug;
+		};
+		513073EA2DCF98D500C5D4EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LP5M2W5MRT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vira-fitriyani.WaddleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Waddle;
+			};
+			name = Release;
+		};
+		513074142DCF98FD00C5D4EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Waddle WatchKit App Watch App/Waddle WatchKit App Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Waddle WatchKit App Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = LP5M2W5MRT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Waddle WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.vira-fitriyani.Waddle";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vira-fitriyani.Waddle.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		513074152DCF98FD00C5D4EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Waddle WatchKit App Watch App/Waddle WatchKit App Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Waddle WatchKit App Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = LP5M2W5MRT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Waddle WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.vira-fitriyani.Waddle";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vira-fitriyani.Waddle.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+		513074182DCF98FD00C5D4EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LP5M2W5MRT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vira-fitriyani.Waddle-WatchKit-App-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Waddle WatchKit App Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Waddle WatchKit App Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		513074192DCF98FD00C5D4EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LP5M2W5MRT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vira-fitriyani.Waddle-WatchKit-App-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Waddle WatchKit App Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Waddle WatchKit App Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+		5130741B2DCF98FD00C5D4EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LP5M2W5MRT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vira-fitriyani.Waddle-WatchKit-App-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Waddle WatchKit App Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		5130741C2DCF98FD00C5D4EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LP5M2W5MRT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vira-fitriyani.Waddle-WatchKit-App-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Waddle WatchKit App Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		513073B92DCF98D500C5D4EA /* Build configuration list for PBXProject "Waddle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				513073E02DCF98D500C5D4EA /* Debug */,
+				513073E12DCF98D500C5D4EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		513073E22DCF98D500C5D4EA /* Build configuration list for PBXNativeTarget "Waddle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				513073E32DCF98D500C5D4EA /* Debug */,
+				513073E42DCF98D500C5D4EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		513073E52DCF98D500C5D4EA /* Build configuration list for PBXNativeTarget "WaddleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				513073E62DCF98D500C5D4EA /* Debug */,
+				513073E72DCF98D500C5D4EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		513073E82DCF98D500C5D4EA /* Build configuration list for PBXNativeTarget "WaddleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				513073E92DCF98D500C5D4EA /* Debug */,
+				513073EA2DCF98D500C5D4EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		513074132DCF98FD00C5D4EA /* Build configuration list for PBXNativeTarget "Waddle WatchKit App Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				513074142DCF98FD00C5D4EA /* Debug */,
+				513074152DCF98FD00C5D4EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		513074172DCF98FD00C5D4EA /* Build configuration list for PBXNativeTarget "Waddle WatchKit App Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				513074182DCF98FD00C5D4EA /* Debug */,
+				513074192DCF98FD00C5D4EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5130741A2DCF98FD00C5D4EA /* Build configuration list for PBXNativeTarget "Waddle WatchKit App Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5130741B2DCF98FD00C5D4EA /* Debug */,
+				5130741C2DCF98FD00C5D4EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 513073B62DCF98D500C5D4EA /* Project object */;
+}
