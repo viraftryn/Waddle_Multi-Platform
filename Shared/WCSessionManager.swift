@@ -35,21 +35,11 @@ class WCSessionManager: NSObject, WCSessionDelegate, ObservableObject {
         guard !isUpdatingFromRemote else { return }
 
         let data: [String: Any] = [
-            "userName": userData.name,
-            "userGender": userData.gender,
-            "userWeight": userData.weight,
-            "userHeight": userData.height,
-            "userActivity": userData.activityState,
             "userFrequency": userData.intakeFrequency,
             "userCurrentProgress": userData.currentProgress
         ]
 
         guard
-            data["userName"] as? String != lastSentData["userName"] as? String ||
-            data["userGender"] as? String != lastSentData["userGender"] as? String ||
-            data["userWeight"] as? Double != lastSentData["userWeight"] as? Double ||
-            data["userHeight"] as? Double != lastSentData["userHeight"] as? Double ||
-            data["userActivity"] as? String != lastSentData["userActivity"] as? String ||
             data["userFrequency"] as? Int != lastSentData["userFrequency"] as? Int ||
             data["userCurrentProgress"] as? Int != lastSentData["userCurrentProgress"] as? Int
         else { return }
@@ -69,11 +59,6 @@ class WCSessionManager: NSObject, WCSessionDelegate, ObservableObject {
             self.isUpdatingFromRemote = true
 
             let userData = UserData.shared
-            userData.name = applicationContext["userName"] as? String ?? ""
-            userData.gender = applicationContext["userGender"] as? String ?? ""
-            userData.weight = applicationContext["userWeight"] as? Double ?? 0
-            userData.height = applicationContext["userHeight"] as? Double ?? 0
-            userData.activityState = applicationContext["userActivity"] as? String ?? ""
             userData.intakeFrequency = applicationContext["userFrequency"] as? Int ?? 8
             userData.currentProgress = applicationContext["userCurrentProgress"] as? Int ?? 0
 
@@ -94,21 +79,11 @@ class WCSessionManager: NSObject, WCSessionDelegate, ObservableObject {
         guard !isUpdatingFromRemote else { return }
 
         let data: [String: Any] = [
-            "userName": userData.name,
-            "userGender": userData.gender,
-            "userWeight": userData.weight,
-            "userHeight": userData.height,
-            "userActivity": userData.activityState,
             "userFrequency": userData.intakeFrequency,
             "userCurrentProgress": userData.currentProgress
         ]
 
         guard
-            data["userName"] as? String != lastSentData["userName"] as? String ||
-            data["userGender"] as? String != lastSentData["userGender"] as? String ||
-            data["userWeight"] as? Double != lastSentData["userWeight"] as? Double ||
-            data["userHeight"] as? Double != lastSentData["userHeight"] as? Double ||
-            data["userActivity"] as? String != lastSentData["userActivity"] as? String ||
             data["userFrequency"] as? Int != lastSentData["userFrequency"] as? Int ||
             data["userCurrentProgress"] as? Int != lastSentData["userCurrentProgress"] as? Int
         else { return }
@@ -128,11 +103,6 @@ class WCSessionManager: NSObject, WCSessionDelegate, ObservableObject {
             self.isUpdatingFromRemote = true
 
             let userData = UserData.shared
-            userData.name = applicationContext["userName"] as? String ?? ""
-            userData.gender = applicationContext["userGender"] as? String ?? ""
-            userData.weight = applicationContext["userWeight"] as? Double ?? 0
-            userData.height = applicationContext["userHeight"] as? Double ?? 0
-            userData.activityState = applicationContext["userActivity"] as? String ?? ""
             userData.intakeFrequency = applicationContext["userFrequency"] as? Int ?? 8
             userData.currentProgress = applicationContext["userCurrentProgress"] as? Int ?? 0
 

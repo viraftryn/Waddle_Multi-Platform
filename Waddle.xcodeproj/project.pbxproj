@@ -92,29 +92,9 @@
 			path = Waddle;
 			sourceTree = "<group>";
 		};
-		513073D12DCF98D500C5D4EA /* WaddleTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = WaddleTests;
-			sourceTree = "<group>";
-		};
-		513073DB2DCF98D500C5D4EA /* WaddleUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = WaddleUITests;
-			sourceTree = "<group>";
-		};
 		513073F02DCF98FC00C5D4EA /* Waddle WatchKit App Watch App */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "Waddle WatchKit App Watch App";
-			sourceTree = "<group>";
-		};
-		513074012DCF98FD00C5D4EA /* Waddle WatchKit App Watch AppTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Waddle WatchKit App Watch AppTests";
-			sourceTree = "<group>";
-		};
-		5130740B2DCF98FD00C5D4EA /* Waddle WatchKit App Watch AppUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Waddle WatchKit App Watch AppUITests";
 			sourceTree = "<group>";
 		};
 		51DE59892DD0CCF600409FE3 /* Shared */ = {
@@ -123,6 +103,11 @@
 				51DE598F2DD0CD5B00409FE3 /* Exceptions for "Shared" folder in "Waddle WatchKit App Watch App" target */,
 			);
 			path = Shared;
+			sourceTree = "<group>";
+		};
+		51FB31D72DE078F800FE153D /* AppIntents */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AppIntents;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -176,13 +161,10 @@
 		513073B52DCF98D500C5D4EA = {
 			isa = PBXGroup;
 			children = (
+				51FB31D72DE078F800FE153D /* AppIntents */,
 				51DE59892DD0CCF600409FE3 /* Shared */,
 				513073C02DCF98D500C5D4EA /* Waddle */,
-				513073D12DCF98D500C5D4EA /* WaddleTests */,
-				513073DB2DCF98D500C5D4EA /* WaddleUITests */,
 				513073F02DCF98FC00C5D4EA /* Waddle WatchKit App Watch App */,
-				513074012DCF98FD00C5D4EA /* Waddle WatchKit App Watch AppTests */,
-				5130740B2DCF98FD00C5D4EA /* Waddle WatchKit App Watch AppUITests */,
 				513073BF2DCF98D500C5D4EA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -220,6 +202,7 @@
 			fileSystemSynchronizedGroups = (
 				513073C02DCF98D500C5D4EA /* Waddle */,
 				51DE59892DD0CCF600409FE3 /* Shared */,
+				51FB31D72DE078F800FE153D /* AppIntents */,
 			);
 			name = Waddle;
 			packageProductDependencies = (
@@ -241,9 +224,6 @@
 			dependencies = (
 				513073D02DCF98D500C5D4EA /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				513073D12DCF98D500C5D4EA /* WaddleTests */,
-			);
 			name = WaddleTests;
 			packageProductDependencies = (
 			);
@@ -263,9 +243,6 @@
 			);
 			dependencies = (
 				513073DA2DCF98D500C5D4EA /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				513073DB2DCF98D500C5D4EA /* WaddleUITests */,
 			);
 			name = WaddleUITests;
 			packageProductDependencies = (
@@ -309,9 +286,6 @@
 			dependencies = (
 				513074002DCF98FD00C5D4EA /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				513074012DCF98FD00C5D4EA /* Waddle WatchKit App Watch AppTests */,
-			);
 			name = "Waddle WatchKit App Watch AppTests";
 			packageProductDependencies = (
 			);
@@ -331,9 +305,6 @@
 			);
 			dependencies = (
 				5130740A2DCF98FD00C5D4EA /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				5130740B2DCF98FD00C5D4EA /* Waddle WatchKit App Watch AppUITests */,
 			);
 			name = "Waddle WatchKit App Watch AppUITests";
 			packageProductDependencies = (

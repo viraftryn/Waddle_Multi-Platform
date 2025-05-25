@@ -7,6 +7,7 @@
 
 import SwiftUI
 import WatchConnectivity
+import AppIntents
 
 @main
 struct WaddleApp: App {
@@ -16,6 +17,7 @@ struct WaddleApp: App {
         _ = WCSessionManager.shared
         UNUserNotificationCenter.current().delegate = NotificationDelegate.shared
         Notification.shared.requestPermission(userData: UserData.shared)
+//        AppShortcutsProvider.registerAppShortcuts()
     }
     
     var body: some Scene {
