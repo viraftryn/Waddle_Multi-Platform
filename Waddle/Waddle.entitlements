@@ -6,5 +6,10 @@
 	<array>
 		<string>group.com.ExperienceChallenge.Waddle</string>
 	</array>
+    <key>com.apple.developer.siri</key>
+    <true/>
+    <key>NSSiriUsageDescription</key>
+    <string>Allow Siri to help you log your hydration progress.</string>
 </dict>
 </plist>
+

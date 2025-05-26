@@ -102,12 +102,16 @@ class UserData: ObservableObject {
     }
 
     func incrementProgress() {
-        currentProgress += 1
-        hasTappedForCurrentNotification = true
+        DispatchQueue.main.async {
+            self.currentProgress += 1
+            self.hasTappedForCurrentNotification = true
+        }
     }
 
     func resetForNewNotification() {
-        hasTappedForCurrentNotification = false
+        DispatchQueue.main.async {
+            self.hasTappedForCurrentNotification = false
+        }
     }
 
     var progressRatio: Double {

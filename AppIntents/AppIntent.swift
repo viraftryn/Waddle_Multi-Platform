@@ -6,13 +6,19 @@
 //
 
 import AppIntents
-import Foundation
 
-struct LogProgressIntent: AppIntent {
+struct LogProgressIntent: AppIntent, ProvidesDialog {
+    var value: Never?
+    
     
     static var title: LocalizedStringResource = "Log Progress"
     static var description = IntentDescription("Log a progress manually using Siri.")
     
+    static var parameterSummary: some ParameterSummary {
+        Summary("Log water progress")
+    }
+    
+    @MainActor
     func perform() async throws -> some IntentResult{
         let userData = UserData.shared
         
@@ -26,3 +32,4 @@ struct LogProgressIntent: AppIntent {
         return .result(dialog: "Nice! I've already added a sip to your progress.")
     }
 }
+
